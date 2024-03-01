@@ -1,0 +1,696 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: azure;
+}
+
+body p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 121px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 120px 32px 120px;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-left: -100px;
+}
+
+.content {
+    word-spacing: 35px;
+    margin-right: -50px;
+}
+
+.open {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 64px;
+}
+
+.opena {
+    rotate: -90deg;
+    padding: 0 20px;
+    word-spacing: 20px;
+}
+
+.open1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: 18px;
+    align-self: center;
+    justify-content: center;
+    font-size: 50px;
+
+}
+
+.open1bi {
+    font-weight: 100;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.open1b h1 {
+    font-weight: 400;
+    font-size: 80px;
+    color: rgba(220, 202, 135, 1);
+}
+
+.open1b p {
+    font-weight: 300;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    color: rgba(170, 170, 170, 1);
+    letter: 4%;
+}
+
+.image1 {
+    margin-right: 80px;
+}
+
+.open button {
+    background: rgba(220, 202, 135, 1);
+}
+
+.open button a {
+    color: black;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Cormorant Upright semi", serif;
+}
+
+.image2 {
+    width: Hug (116px);
+    height: Hug (28px);
+    margin-left: -25px;
+    margin-top: 40px;
+    gap: 8px;
+
+}
+
+.image3 {
+    width: Hug (61px);
+    height: Hug (113px);
+    margin-top: -80px;
+    margin-left: 730px;
+    gap: 24px;
+
+}
+
+.start {
+    background: url(FHGTHG.jpg) no-repeat;
+    background-size: cover;
+}
+
+.startA {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.start1 h2,
+.start2 h2 {
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    color: rgba(220, 202, 135, 1);
+}
+
+.start1 p,
+.start2 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    width: 100%;
+    max-width: 470px;
+    color: rgba(170, 170, 170, 1);
+}
+
+.start1 {
+    text-align: right;
+    margin-right: 55px;
+    position: relative;
+
+}
+
+.start2 {
+    margin-left: 80px;
+}
+
+.start h1 {
+    display: flex;
+    position: inherit;
+    font-size: 630px;
+    font-weight: 400;
+    width: 100%;
+    max-width: 400px;
+    font-family: "poppins", serif;
+    justify-self: center;
+    align-self: center;
+    color: rgba(39, 39, 39, 1);
+    margin-right: -220px;
+    margin-left: -150px;
+
+}
+
+
+.start1 img {
+    rotate: -180deg;
+}
+
+
+.start button {
+    background: rgba(220, 202, 135, 1);
+}
+
+.start button a {
+    color: black;
+    padding: 0 15px;
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 64px;
+}
+
+.menuhd {
+    margin-top: 100px;
+    margin-bottom: -95px;
+    text-align: center;
+}
+
+.menuhd h1 {
+    font-weight: 400;
+    font-size: 64px;
+    align: center;
+    color: rgba(220, 202, 135, 1);
+}
+
+.menutb {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    word-spacing: 10px;
+    gap: 32px;
+}
+
+.menu1 p,
+.menu2 p {
+    margin: 40px 0;
+}
+
+.menu1,
+.menu2 {
+    margin-top: 200px;
+    gap: 48px;
+}
+
+.menu1 h2,
+.menu2 h2 {
+    font-size: 45px;
+    font-weight: 400;
+    align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.menu p {
+    text-align: justify;
+}
+
+
+.menu1 p strong,
+.menu2 p strong {
+    color: rgba(220, 202, 135, 1);
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Cormorant Upright ", serif;
+}
+
+.menu1 p small,
+.menu2 p small {
+    color: rgba(170, 170, 170, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu1 img,
+.menu2 img {
+    /* margin-left: 20px; */
+}
+
+.chef {
+    background: url(FHGTHG.jpg) no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 64px;
+}
+
+.chef1a {
+    margin-bottom: 50px;
+}
+
+.chef1ai {
+    margin-bottom: 50px;
+}
+
+.chef1ai h4 {
+    font-weight: 500;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.chef1ai h1 {
+    font-weight: 200;
+    font-size: 64px;
+    color: rgba(220, 202, 135, 1);
+}
+
+.chef1a p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+    max-width: 500px;
+    color: rgba(170, 170, 170, 1);
+}
+
+.chef1b {
+    margin-bottom: 50px;
+}
+
+.chef1b h2 {
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-size: 32px;
+    color: rgba(220, 202, 135, 1);
+}
+
+.chef1b p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(170, 170, 170, 1);
+}
+
+.chef1c {
+    font-weight: 400;
+    font-size: 64px;
+    color: rgba(170, 170, 170, 1);
+
+}
+
+.Laurels {
+    background: url(FHGTHG.jpg) no-repeat;
+    background-size: cover;
+}
+
+.laurelsb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 96px;
+}
+
+.laurelsb2 h6 {
+    font-size: 23px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.laurelsb2 h1 {
+    font-weight: 200;
+    font-size: 64px;
+    color: rgba(220, 202, 135, 1);
+    margin: 20px 0 20px 0;
+}
+
+.laurelsb2l p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(170, 170, 170, 1);
+    width: 100%;
+    max-width: 170px;
+}
+
+.laurelsb2l h5 {
+    font-size: 23px;
+    font-weight: 400;
+    color: rgba(220, 202, 135, 1);
+}
+
+.laurelsb2la {
+    margin-bottom: 20px;
+}
+
+.laurelsb2la ul,
+.laurelsb2lb ul {
+    display: inline-flex;
+    gap: 40px;
+    margin: 5px 0 20px 0;
+    list-style-type: none;
+}
+
+.Ig {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 54px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Ig1 {
+    gap: 25px;
+    margin-left: 50px;
+}
+
+.Ig1 h5 {
+    font-weight: 400;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Ig1 h2 {
+    font-weight: 400;
+    font-size: 64px;
+    align: center;
+    color: rgba(220, 202, 135, 1);
+    margin-bottom: 27px;
+}
+
+.Ig1 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(170, 170, 170, 1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+.Ig1 button {
+    background: rgba(220, 202, 135, 1);
+}
+
+.Ig1 button a {
+    color: black;
+    padding: 0 15px;
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 120px;
+    margin-bottom: 100px;
+}
+
+.contact1 h6 {
+    font-weight: 400;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact1 h1 {
+    font-weight: 400;
+    font-size: 64px;
+    align: center;
+    color: rgba(220, 202, 135, 1);
+    margin-bottom: 20px;
+}
+
+.contact1 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(170, 170, 170, 1);
+    margin-bottom: 15px;
+}
+
+.contact1 h5 {
+    font-weight: 400;
+    font-size: 23px;
+    color: rgba(220, 202, 135, 1);
+    margin-bottom: 15px;
+}
+
+.contact1 li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact1 button {
+    background: rgba(220, 202, 135, 1);
+    margin-top: 30px;
+}
+
+.contact1 button a {
+    color: black;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+footer {
+    background: url(FHGTHG.jpg) no-repeat;
+}
+
+.Ends {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-top: -30px;
+    background-color: black;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    padding: 40px 100px;
+    border-top: 0 none transparent;
+}
+
+.news h5 {
+    font-weight: 400;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.news h1 {
+    font-weight: 400;
+    font-size: 44px;
+    align: center;
+    margin: 10px 0 20px 0;
+    color: rgba(220, 202, 135, 1);
+}
+
+.news p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 30px;
+}
+
+.news input {
+    border: 2px solid rgba(220, 202, 135, 0.2);
+    background-color: black;
+    padding: 5px 80px 5px 10px;
+    margin-right: 10px;
+}
+
+.news input text {
+    font-weight: 600;
+    font-size: 16px;
+    align: center;
+    color: rgba(170, 170, 170, 1);
+}
+
+.news button {
+    background: rgba(220, 202, 135, 1);
+}
+
+.news a {
+    color: black;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    gap: 70px;
+    margin-bottom: 50px;
+    margin-right: 60px;
+}
+
+.top {
+    margin-left: 1200px;
+    margin-top: -40px;
+    margin-bottom: 80px;
+}
+
+.details1 h2 {
+    font-weight: 400;
+    font-size: 32px;
+    color: rgba(245, 239, 219, 1);
+    margin-bottom: 10px;
+}
+
+.details1 ul {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(170, 170, 170, 1);
+}
+
+.details1 li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.details2 h1 {
+    font-weight: 700;
+    font-size: 64px;
+    align: center;
+    color: rgba(220, 202, 135, 1);
+    margin-bottom: 20px;
+}
+
+.details2 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(170, 170, 170, 1);
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.details2 img {
+    margin-bottom: 10px;
+}
+
+.details3 h2 {
+    font-weight: 400;
+    font-size: 32px;
+    color: rgba(245, 239, 219, 1);
+    margin-bottom: 10px;
+}
+
+.details3 ul {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(170, 170, 170, 1);
+}
+
+.details3 li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.gt {
+    font-weight: 400;
+    font-size: 16px;
+    justify-self: center;
+    align: center;
+    color: rgba(170, 170, 170, 1);
+    margin-bottom: 80px;
+}
